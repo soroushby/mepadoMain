@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "mepadoMain"
+  "defaultProject": "mepadoMain",
+  "cli": {
+    "analytics": "1401e24c-a500-462e-88ce-25810b95f70f"
+  }
 }
