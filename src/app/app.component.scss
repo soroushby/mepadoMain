@@ -3,3 +3,66 @@ mat-sidenav,
 mat-sidenav-content {
   height: 100%;
 }
+
+.res {
+  position: absolute;
+  background-color: transparent;
+  z-index: 20;
+}
+
+a {
+  text-decoration: none;
+  color: #f2edeb;
+  list-style-type: none;
+}
+
+a:hover {
+  //color: #ff8671;
+  color: #aa7dce;
+}
+
+li {
+  list-style: none;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.sidenav {
+  width: 20rem;
+  background: linear-gradient(#0d1547, #f2edeb79);
+}
+
+.example-icon {
+  color: #f2edeb;
+}
+
+.matlist {
+  color: #f2edeb;
+}
+
+mat-list-item:hover {
+  //color: #ff8671;
+  color: #aa7dce;
+}
+
+.example-icon1 {
+  //margin-left: 2rem;
+}
+
+.active {
+  border-bottom: 1px #f2edeb solid;
+}
+
+.nav {
+  &-list {
+    font-family: iranyekan;
+  }
+}
+
+.logo {
+  height: 10rem;
+  width: 10rem;
+  //margin-right: 0.5rem;
+}
