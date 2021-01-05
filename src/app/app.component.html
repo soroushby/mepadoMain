@@ -1,7 +1,7 @@
 <mat-sidenav-container class="example-container">
-  <mat-sidenav mode="side" opened #sidenav>Sidenav content</mat-sidenav>
+  <mat-sidenav mode="side" #sidenav>Sidenav content</mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
+    <mat-toolbar color="primary" fxLayout="row" fxLayoutGap="1rem">
       <button
         mat-icon-button
         class="example-icon"
@@ -10,7 +10,7 @@
       >
         <mat-icon>menu</mat-icon>
       </button>
-      <span>My App</span>
+      <span>Home</span>
       <span class="example-spacer"></span>
       <button
         mat-icon-button
